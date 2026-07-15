@@ -10,6 +10,7 @@
     pkgs = import nixpkgs {
       inherit system;
       config.allowUnfree = true;
+      config.android_sdk.accept_license = true;
     };
     androidSdk = (pkgs.androidenv.composeAndroidPackages {
       platformVersions = ["35"];
