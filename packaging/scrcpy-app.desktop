@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Scrcpy App Launcher
+Exec=scrcpy-app
+Icon=phone
+Type=Application
+Categories=Utility;System;
+Terminal=false
